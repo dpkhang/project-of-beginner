@@ -1,0 +1,71 @@
+    <div class="form_test">
+      <div><label class="label">FISH INFORMATION</label></div>
+      <form action="#?">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              class="info"
+              type="text"
+              id="fname"
+              name="name"
+              placeholder="Your name..."
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="price">Price</label>
+          </div>
+          <div class="col-75">
+            <input class="info" type="number" id="price" name="price" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="quantity">Quantity</label>
+          </div>
+          <div class="col-75">
+            <input class="info" type="number" id="quantity" name="quantity" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="description">Description</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              class="info"
+              id="description"
+              name="description"
+              placeholder="Write description..."
+              style="height:200px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="img">Image</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="file"
+              style="margin-top:12px;"
+              id="img"
+              name="img"
+              accept="image/*"
+            />
+          </div>
+        </div>
+
+        <br />
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
