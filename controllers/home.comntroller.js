@@ -1,4 +1,4 @@
-class Products {
+class Home{
     showListOfFish(req, res) {
         const list_fish = [{
                 id: 1,
@@ -41,22 +41,10 @@ class Products {
                 image: "",
             },
         ];
-        res.render("pages/products", {
+        res.render("pages/home", {
             //array:name
             manage_fish: list_fish
         });
     }
-    create(req, res) {
-
-    }
-    update(req, res) {
-
-    }
-    delete(req, res) {
-
-    }
-
-
 }
-
-module.exports = new Products();
+module.exports = new Home();
