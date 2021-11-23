@@ -1,8 +1,8 @@
 const express = require('express')
 const route = express.Router()
-const product_controller = require('../controllers/products.controller')
+const home_controller = require('../controllers/home.controller')
 
 
-route.get('/', product_controller.showListOfFish)
+route.get('/', home_controller.showListOfFish)
 
 module.exports = route
