@@ -6,7 +6,7 @@ class Home{
                 quantity: 10,
                 price: 1000000,
                 description: "this is beutiful",
-                image: "",
+                image: "./image/cavang.png",
             },
             {
                 id: 2,
@@ -14,7 +14,7 @@ class Home{
                 quantity: 20,
                 price: 2000000,
                 description: "this is beutiful",
-                image: "",
+                image: "./image/ca2.png",
             },
             {
                 id: 3,
@@ -22,7 +22,7 @@ class Home{
                 quantity: 30,
                 price: 3000000,
                 description: "this is beutiful",
-                image: "",
+                image: "./image/ca3.png",
             },
             {
                 id: 4,
@@ -30,7 +30,7 @@ class Home{
                 quantity: 40,
                 price: 4000000,
                 description: "this is beutiful",
-                image: "",
+                image: "./image/ca4.png",
             },
             {
                 id: 4,
@@ -38,7 +38,7 @@ class Home{
                 quantity: 40,
                 price: 4000000,
                 description: "this is beutiful",
-                image: "",
+                image: "./image/ca1.png",
             },
         ];
         res.render("pages/home", {

@@ -16,7 +16,6 @@ app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, 'resources/views'))
 
 route.routes(app)
-console.log('dirname' + __dirname)
 
 const port = process.env.PORT || 8001
 app.listen(port)

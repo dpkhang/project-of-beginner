@@ -1,19 +1,21 @@
-
-{{#each this}}
+<a href="/detail">
+    {{#each this}}
 <div class="item">
     <div class="img">
-        <img src="./image/cavang.png" alt="">
+        <img src="{{this.image}}" alt=""">
     </div>
     <div class="info">
-    <div>
+    <div class="info_row">
         <Label>{{this.name}}</Label>
     </div>
-    <div>
-        <Label >{{this.price}}</Label>
+    <div  class="info_row">
+        <Label style="font-size:15px" >{{this.price}}</Label>
     </div>
-    <div>
-        <button class="btn">Thêm vào giỏ hàng</Label>
+    <div  class="info_row">
+        <button class="btn">Add to cart</button>
     </div>
     </div>
 </div>
 {{/each}}
+</a>
+
