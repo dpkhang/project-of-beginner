@@ -1,0 +1,42 @@
+@keyframes chopchop {
+  0% {
+    color: aqua; }
+  100% {
+    color: blue; } }
+
+.menu {
+  overflow: hidden;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 3.5rem; }
+  .menu .title {
+    font-size: 2rem;
+    display: block;
+    height: 100%;
+    padding-left: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .5s;
+    animation: chopchop 1s linear .1s infinite alternate backwards; }
+  .menu .menu-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%; }
+    .menu .menu-header a {
+      display: block;
+      width: 10rem;
+      color: #160091;
+      text-align: center;
+      text-decoration: none;
+      font-size: 20px; }
+  .menu .menu-right:hover {
+    color: #056CF2;
+    border-radius: 3px; }
+  .menu .user {
+    letter-spacing: 1px;
+    font-size: 20px; }
+    .menu .user i, .menu .user p {
+      color: #00054d; }

@@ -23,4 +23,10 @@ $(document).ready(function(){
     });
 
 
+    $('input[type=file]').change(function(){
+      s=$('input[type=file]').val().replace('C:\\fakepath\\', '');
+      moveupload("'input[type=file]').val()","../image/"+s)
+    })
+
+
   });

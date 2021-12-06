@@ -1,0 +1,93 @@
+.content_detail {
+  height: 500px;
+  width: 900px;
+  margin: 0 auto;
+  padding: top 10px;
+  display: flex;
+  border: 1px solid #e0e0e0;
+  box-shadow: 1px 1px 2px 0px #b6b6b6;
+  background-color: #fafeff; }
+  .content_detail .detail_img {
+    width: 40%;
+    height: 100%; }
+    .content_detail .detail_img img {
+      height: 100%;
+      width: 100%; }
+  .content_detail .detail_title {
+    width: 20%;
+    height: 100%; }
+  .content_detail .detail {
+    width: 40%;
+    height: 100%;
+    margin-right: 10px; }
+  .content_detail .detail_name {
+    width: 100%;
+    height: 15%;
+    margin-bottom: 5px;
+    margin-top: 30px; }
+  .content_detail .detail_description {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5px; }
+    .content_detail .detail_description p {
+      text-align: justify; }
+  .content_detail .detail_status {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 5px; }
+  .content_detail .detail_quantity {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 5px; }
+  .content_detail .detail_add {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5px; }
+    .content_detail .detail_add button {
+      width: 60%;
+      color: white; }
+  .content_detail h4 {
+    width: 100%;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 17px;
+    color: #030759;
+    margin-left: 30px; }
+  .content_detail p {
+    font-size: 17px;
+    color: #646464; }
+  .content_detail #Status {
+    color: #00cc00; }
+  .content_detail button,
+  .content_detail input[type="submit"] {
+    display: block;
+    width: 60px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #B0E9F5;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 2px 0px #b6b6b6;
+    font-family: 'Arial', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .content_detail i {
+    font-size: 15px;
+    color: #63bdb8; }
+  .content_detail input {
+    width: 60px;
+    height: 30px;
+    color: #666;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0; }
+  .content_detail input:hover {
+    transform: scale(1.1); }
+  .content_detail button:hover {
+    transform: scale(1.1); }
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  letter-spacing: 2px;
+  margin: 0 auto; }

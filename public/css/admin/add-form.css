@@ -1,0 +1,68 @@
+.form_test {
+  border-radius: 15px;
+  background-color: #eeeeff;
+  padding: 50px;
+  width: 50%;
+  margin: 0px auto;
+  box-shadow: 0px 0px 5px 0px #666; }
+  .form_test .info {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    resize: vertical; }
+  .form_test .info:hover {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    resize: vertical;
+    box-shadow: 2px 2px 10px 0px #d1d1d1; }
+  .form_test .info:focus {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    resize: vertical;
+    outline: none;
+    box-shadow: 1px 1px 2px 0px #666; }
+  .form_test .row label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #030759;
+    font-size: 20px; }
+  .form_test .row input[type=submit] {
+    background-color: #1BA0F2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    -moz-box-shadow: 3px 3px 5px 0px #666;
+    -webkit-box-shadow: 3px 3px 5px 0px #666;
+    box-shadow: 2px 2px 10px 0px #c9c9c9; }
+  .form_test .row input[type=submit]:hover {
+    background-color: #38D0F2;
+    border-radius: 8px;
+    -moz-box-shadow: 3px 3px 5px 0px #666;
+    -webkit-box-shadow: 3px 3px 5px 0px #666;
+    box-shadow: 3px 3px 5px 0px #666; }
+  .form_test .row .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px; }
+  .form_test .row .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px; }
+  .form_test .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .form_test .label {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #030759; }

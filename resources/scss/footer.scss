@@ -1,0 +1,44 @@
+.footer-basic {
+    background-color:hsl(189, 100%, 96%);
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+
+    .footer-icon{
+        padding-top: 35px;
+        height:100px;
+        width: 30%;
+        display: flex;
+        margin:0 auto;
+        i{
+            width: 2rem;
+            margin: 0 auto;
+            color: rgb(5, 0, 48);
+            font-size:24px;
+        }
+
+    }
+    .footer-copyright{
+        height: 100px;
+        background-color:rgb(5, 0, 48);
+        display: flex;
+        h5{
+            // padding-top:50px;
+            margin: 0 auto;
+            font-size:15px;
+            font-family: "BalooTamma";
+            letter-spacing:2px;
+            color: white;
+            line-height:6rem;
+        }
+
+    }
+
+    
+    }
+
+    @media screen and (max-width: 500px) {
+        * {
+            font-size: 10px;
+        }
+    }

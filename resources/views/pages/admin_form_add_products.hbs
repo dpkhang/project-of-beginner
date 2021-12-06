@@ -1,0 +1,74 @@
+<div class="form_center">
+    <form action="/products/add-product" method="post" enctype="multipart/form-data">
+        <div class="tile_form">
+            <h1>Add Procducts</h1>
+        </div>
+
+        <div class="contents">
+            <div class="form50">
+                <div class="row">
+                    <div class="col25">
+                        <p>Name</p>
+                    </div>
+                    <div class="col75"><input type="text" name="name"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col25">
+                        <p>Category</p>
+                    </div>
+                    <div class="col75"><select id="cate" name="category" >
+                            <option value="fis">Fish</option>
+                            <option value="tank">Fish tank</option>
+                            <option value="food">Food</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col25">
+                        <p>Image</p>
+                    </div>
+                    <div class="col75">
+  
+                        <input type="file" id="image" name="file">
+                        <div id="displayImg"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="form50">
+                <div class="row">
+                    <div class="col25">
+                        <p>Price</p>
+                    </div>
+                    <div class="col75"><input type="number" name="price"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col25">
+                        <p>Quantity</p>
+                    </div>
+                    <div class="col75"><input type="number" name="quantity"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col25">
+                        <span>
+                            <p>Description</p>
+                        </span>
+                    </div>
+                    <div class="col75">
+                        <textarea name="description" id="des"></textarea>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="submit_form"> <input type="submit" value="Add"> </div>
+    </form>
+</div>

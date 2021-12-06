@@ -1,0 +1,73 @@
+.form_center {
+  height: 50rem;
+  width: 80%;
+  margin: 0 auto; }
+  .form_center .tile_form, .form_center .submit_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin-bottom: 5rem; }
+    .form_center .tile_form h1, .form_center .submit_form h1 {
+      font-size: 3rem;
+      letter-spacing: 0.2rem; }
+    .form_center .tile_form input[type="submit"], .form_center .submit_form input[type="submit"] {
+      background: #056CF2;
+      color: white;
+      width: 10rem;
+      font-size: 1.1rem;
+      letter-spacing: 0.5rem;
+      height: 2.5rem;
+      border-radius: 3px; }
+    .form_center .tile_form input[type="submit"]:hover, .form_center .submit_form input[type="submit"]:hover {
+      opacity: 0.7; }
+  .form_center .contents {
+    width: 100%;
+    display: flex; }
+  .form_center .form50 {
+    width: 48%;
+    padding: 2rem;
+    margin: 1rem; }
+    .form_center .form50 .row {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 2rem; }
+      .form_center .form50 .row .col25 {
+        width: 30%; }
+        .form_center .form50 .row .col25 p {
+          margin-top: 0.2rem;
+          font-size: 1.1rem; }
+      .form_center .form50 .row .col75 {
+        width: 70%; }
+        .form_center .form50 .row .col75 input {
+          width: 100%;
+          height: 2rem;
+          border: 1px solid #ccc;
+          outline: none;
+          padding: 12px 20px; }
+        .form_center .form50 .row .col75 img {
+          height: 100%;
+          width: 40%;
+          align-items: center; }
+        .form_center .form50 .row .col75 input[type=file] {
+          height: 100%;
+          width: 100%; }
+        .form_center .form50 .row .col75 input::-webkit-outer-spin-button,
+        .form_center .form50 .row .col75 input::-webkit-inner-spin-button {
+          -webkit-appearance: none; }
+        .form_center .form50 .row .col75 textarea {
+          width: 100%;
+          height: 10rem;
+          border: 1px solid #ccc;
+          outline: none;
+          padding: 12px 20px;
+          margin: 8px 0;
+          text-align: justify; }
+        .form_center .form50 .row .col75 select {
+          border: 1px solid #ccc;
+          outline: none;
+          padding: 2px 0px;
+          height: 2rem; }
+        .form_center .form50 .row .col75 input:hover, .form_center .form50 .row .col75 textarea:hover, .form_center .form50 .row .col75 input:focus, .form_center .form50 .row .col75 textarea:focus {
+          border: 1px solid #000930; }

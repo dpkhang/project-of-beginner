@@ -24,3 +24,19 @@ about.addEventListener("click", function (e) {
 
 
 // quantity
+
+let count = 1;
+setInterval(function () {
+  document.getElementById('radio'+count).checked = true;
+  count++;
+  if (count >4) {
+    count = 1;
+  }
+
+},3000)
+
+
+function uploadimg(nameimg){
+let newimg = nameimg.replace(/^.*\\/,"")
+
+}

@@ -1,0 +1,91 @@
+.form_test {
+    border-radius: 15px;
+    background-color: rgb(238, 238, 255);
+    padding: 50px;
+    width: 50%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 5px 0px #666;
+
+    .info {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(236, 236, 236);
+        border-radius: 8px;
+        resize: vertical;
+    }
+
+    .info:hover {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(209, 209, 209);
+        border-radius: 15px;
+        resize: vertical;
+        box-shadow: 2px 2px 10px 0px rgb(209, 209, 209);
+    }
+
+    .info:focus {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(209, 209, 209);
+        border-radius: 15px;
+        resize: vertical;
+        outline: none;
+        box-shadow: 1px 1px 2px 0px #666;
+    }
+
+    .row {
+        label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+            color: #030759;
+            font-size: 20px;
+        }
+
+        input[type=submit] {
+            background-color: #1BA0F2;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            -moz-box-shadow: 3px 3px 5px 0px #666;
+            -webkit-box-shadow: 3px 3px 5px 0px #666;
+            box-shadow: 2px 2px 10px 0px rgb(201, 201, 201);
+        }
+
+        input[type=submit]:hover {
+            background-color: #38D0F2;
+            border-radius: 8px;
+            -moz-box-shadow: 3px 3px 5px 0px #666;
+            -webkit-box-shadow: 3px 3px 5px 0px #666;
+            box-shadow: 3px 3px 5px 0px #666;
+        }
+
+        .col-25 {
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+        }
+
+        .col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+        }
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .label {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 40px;
+        color: #030759;
+    }
+}
